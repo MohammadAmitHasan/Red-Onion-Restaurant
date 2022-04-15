@@ -6,11 +6,12 @@ function CustomLink({ children, to, ...props }) {
 
     const activeStyles = {
         color: match ? '#FF0051' : '',
+        borderBottom: match ? '2px solid red' : '2px solid white'
     }
 
     return (
         <div>
-            < Link style={activeStyles} className='block text-center text-lg border-2 border-white hover:border-red-400 px-4 py-1 rounded-lg font-semibold'
+            < Link style={activeStyles} className='block text-center text-lg border-2 border-white mx-5 py-1 font-semibold'
                 to={to}
                 {...props}
             >

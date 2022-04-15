@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "Bagel and cream cheese",
+    "price": 6.99,
+    "category": "breakfast",
+    "photo": "https://i.ibb.co/sCf2RLZ/breakfast2.png"
+  },
+  {
+    "id": 2,
+    "name": "Egg Benedict",
+    "price": 8.99,
+    "category": "breakfast",
+    "photo": "https://i.ibb.co/vX7W4Kk/breakfast1.png"
+  },
+  {
+    "id": 3,
+    "name": "Breakfast Sandwich",
+    "price": 9.99,
+    "category": "breakfast",
+    "photo": "https://i.ibb.co/p0rmjbK/breakfast6.png"
+  },
+  {
+    "id": 4,
+    "name": "Toast Croissant Fried Egg",
+    "price": 19.99,
+    "category": "breakfast",
+    "photo": "https://i.ibb.co/ZYSDswv/breakfast5.png"
+  },
+  {
+    "id": 5,
+    "name": "Baked Chiken",
+    "price": 10.99,
+    "category": "breakfast",
+    "photo": "https://i.ibb.co/fkmNYhT/breakfast4.png"
+  },
+  {
+    "id": 6,
+    "name": "Fried Egg Toast Brunch",
+    "price": 3.99,
+    "category": "breakfast",
+    "photo": "https://i.ibb.co/DfzkbKP/breakfast3.png"
+  },
+  {
+    "id": 12,
+    "name": "Healthy Meal Plan",
+    "price": 23.99,
+    "category": "lunch",
+    "photo": "https://i.ibb.co/DgJYww6/lunch6.png"
+  },
+  {
+    "id": 7,
+    "name": "Indian Lucnh",
+    "price": 8.99,
+    "category": "lunch",
+    "photo": "https://i.ibb.co/86QPK7D/lunch5.png"
+  },
+  {
+    "id": 8,
+    "name": "Fried Chiken Bento",
+    "price": 9.99,
+    "category": "lunch",
+    "photo": "https://i.ibb.co/rk5HWQW/lunch4.png"
+  },
+  {
+    "id": 9,
+    "name": "Beef Steak",
+    "price": 15.99,
+    "category": "lunch",
+    "photo": "https://i.ibb.co/304VWZj/lunch3.png"
+  },
+  {
+    "id": 10,
+    "name": "Tarragon Rubbed Salmon",
+    "price": 6.99,
+    "category": "lunch",
+    "photo": "https://i.ibb.co/dmWmYGm/lunch2.png"
+  },
+  {
+    "id": 11,
+    "name": "Honey Soy Glazed Salmon With Peppers",
+    "price": 7.99,
+    "category": "lunch",
+    "photo": "https://i.ibb.co/GMVgD2L/lunch1.png"
+  },
+  {
+    "id": 13,
+    "name": "Salmon with Graoefruit",
+    "price": 9.99,
+    "category": "dinner",
+    "photo": "https://i.ibb.co/tDQCxqp/dinner1.png"
+  },
+  {
+    "id": 14,
+    "name": "French Fries With cheese",
+    "price": 8.99,
+    "category": "dinner",
+    "photo": "https://i.ibb.co/Tm65qbV/dinner2.png"
+  },
+  {
+    "id": 15,
+    "name": "Lemony Salmon Piccata",
+    "price": 10.99,
+    "category": "dinner",
+    "photo": "https://i.ibb.co/sFfdrBG/dinner3.png"
+  },
+  {
+    "id": 16,
+    "name": "Gralic Butter Backed Salmon",
+    "price": 6.99,
+    "category": "dinner",
+    "photo": "https://i.ibb.co/MRJ2HDp/dinner4.png"
+  },
+  {
+    "id": 17,
+    "name": "Pork Tenderloin With Quinoa Pilaf",
+    "price": 12.99,
+    "category": "dinner",
+    "photo": "https://i.ibb.co/LxmL12r/dinner5.png"
+  },
+  {
+    "id": 18,
+    "name": "Baked Chiken",
+    "price": 9.99,
+    "category": "dinner",
+    "photo": "https://i.ibb.co/R0TKRrF/dinner6.png"
+  }
+]
