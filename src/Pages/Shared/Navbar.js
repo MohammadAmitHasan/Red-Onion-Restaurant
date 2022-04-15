@@ -3,13 +3,12 @@ import logo from '../../Images/logo2.png'
 import { MenuIcon, ShoppingCartIcon, XIcon } from '@heroicons/react/solid';
 import CustomLink from './CustomLink';
 
-
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
         <nav className='py-2 bg-white z-50 flex container items-center mx-auto'>
             <div>
-                <img src={logo} className='h-10' alt="" />
+                <img src={logo} className='h-12 p-1' alt="" />
             </div>
             <div onClick={() => setOpen(!open)} className='w-6 h-6 md:hidden ml-auto mr-4'>
                 {open ? <XIcon></XIcon> : <MenuIcon></MenuIcon>}

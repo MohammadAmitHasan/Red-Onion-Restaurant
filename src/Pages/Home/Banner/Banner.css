@@ -1,0 +1,6 @@
+#banner-container {
+    background-image: url('bannerbackgroundE.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
