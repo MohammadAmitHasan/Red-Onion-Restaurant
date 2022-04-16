@@ -18,7 +18,7 @@ const WhyChooseUs = () => {
     ]
     return (
 
-        <div className='container mx-auto my-10'>
+        <div className='container mx-auto my-10 p-5'>
 
             <h3 className='text-3xl mb-5'>Why Choose Us</h3>
             <p>We provide best quality foods with our best possible services</p>
@@ -26,8 +26,8 @@ const WhyChooseUs = () => {
                 {
                     services.map(service =>
                         <div key={service.id}>
-                            <img src={service.photo} alt="" />
-                            <div className='mt-8'>
+                            <img className='w-full' src={service.photo} alt="" />
+                            <div className='mt-8 pr-3'>
                                 <h4 className='flex items-center text-lg mb-2'>
                                     <img src={service.iconTag} alt="" />
                                     <span className='ml-2'>{service.title}</span>
