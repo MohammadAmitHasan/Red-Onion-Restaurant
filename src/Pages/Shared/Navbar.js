@@ -15,7 +15,7 @@ const Navbar = () => {
             </div>
             <ul className={`bg-white md:flex justify-end absolute md:static w-full duration-300 ease-in ${open ? 'top-14' : 'top-[-220px]'}`}>
                 <CustomLink to={'/'}>HOME</CustomLink>
-                <CustomLink to={'/dashboard'}>
+                <CustomLink to={'/cart'}>
                     <div className='w-6 h-5 mt-1 mx-auto'>
                         <ShoppingCartIcon></ShoppingCartIcon>
                     </div>

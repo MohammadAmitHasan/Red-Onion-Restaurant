@@ -1,5 +1,6 @@
 
 import { useEffect, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import useFoodItems from '../../../CustomHooks/useFoodItems';
 import FoodItem from './FoodItem/FoodItem';
 
@@ -12,11 +13,13 @@ const FoodItems = () => {
         setCatagories(foodItems);
     }, [foodItems])
 
+    const navigate = useNavigate();
+
     const breakfastHandle = () => {
         const breakfastItems = foodItems.filter(foodItem => foodItem.category === 'breakfast')
         setCatagories(breakfastItems);
         setActive('breakfast');
-
+        navigate('/');
     }
     const lunchHandle = () => {
         const lunchItems = foodItems.filter(foodItem => foodItem.category === 'lunch')
@@ -48,7 +51,8 @@ const FoodItems = () => {
                     ></FoodItem>)
                 }
             </div>
-            <button className='py-2 px-4 bg-red-500 hover:bg-red-600 text-white rounded-lg'>Checkout Your Food</button>
+
+            <Link className='py-3 px-4 bg-red-500 hover:bg-red-600 text-white rounded-md' to={'/cart'}>Checkout Your Food</Link>
         </div >
     );
 };
