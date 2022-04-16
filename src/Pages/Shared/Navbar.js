@@ -20,8 +20,8 @@ const Navbar = () => {
                         <ShoppingCartIcon></ShoppingCartIcon>
                     </div>
                 </CustomLink>
-                <CustomLink to={'/blogs'}>Login</CustomLink>
-                <CustomLink to={'/about'}>Sign Up</CustomLink>
+                <CustomLink to={'/login'}>Login</CustomLink>
+                <CustomLink to={'/signup'}>Sign Up</CustomLink>
             </ul>
         </nav>
 
