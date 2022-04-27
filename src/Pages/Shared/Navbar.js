@@ -2,9 +2,14 @@ import React, { useState } from 'react';
 import logo from '../../Images/logo2.png'
 import { MenuIcon, ShoppingCartIcon, XIcon } from '@heroicons/react/solid';
 import CustomLink from './CustomLink';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { signOut } from 'firebase/auth';
+import auth from '../../Firebase.init';
 
 const Navbar = () => {
+    const [user, loading, error] = useAuthState(auth);
     const [open, setOpen] = useState(false);
+
     return (
         <nav className='py-2 bg-white z-50 flex container items-center mx-auto'>
             <div>
@@ -20,10 +25,17 @@ const Navbar = () => {
                         <ShoppingCartIcon></ShoppingCartIcon>
                     </div>
                 </CustomLink>
-                <CustomLink to={'/login'}>Login</CustomLink>
-                <CustomLink to={'/signup'}>Sign Up</CustomLink>
+
+                {
+                    user ? <button className='bg-red-300 px-3 rounded-md hover:bg-red-500' onClick={() => signOut(auth)}>Logout</button> :
+                        <div className='md:flex'>
+                            <CustomLink to={'/login'}>Login</CustomLink>
+                            <CustomLink to={'/signup'}>Sign Up</CustomLink>
+                        </div>
+                }
+
             </ul>
-        </nav>
+        </nav >
 
     );
 };
